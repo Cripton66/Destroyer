@@ -101,7 +101,7 @@ elif x == 5:
         print(rojo+"Creando vínculos")
         os.system("cp t.txt actualizaciont.bat")    
 elif x == 6:
-      #Crea ficheros de forma repetitiva
+      #Panel de ayuda
         os.system("clear")
         print(menu())
         time.sleep(1.0)
